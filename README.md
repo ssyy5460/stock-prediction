@@ -23,12 +23,12 @@
 
 
 ## 3. 분석 프로세스
-
-![프로세스](https://github.com/ssyy5460/stock-prediction/assets/64217874/a883dfe7-db24-4420-8159-4123a9fea900)
-
+![프로세스](https://github.com/ssyy5460/stock-prediction/assets/64217874/ade10e50-3468-48bc-97fe-0f027ad6ae28)
 
 ### STEP 1. 일별 주가 데이터셋구축
-![step1](https://github.com/ssyy5460/stock-prediction/assets/64217874/fdf48ace-05e9-4310-ae25-2dcb642a84dc)
+![step1](https://github.com/ssyy5460/stock-prediction/assets/64217874/25a22f25-0661-446d-a625-a365da4f2233)
+
+
 <strong>1-1) 데이터 수집</strong>
 - 한국증권거래소에서 제공하는 일 단위 주가데이터
 - 전체 약 2000개 종목 중에서 2018년부터 존속하였던 종목 중 거래대금이 * (10억/100억/1000억/1조) 이상 발생했던 날짜의 주가
@@ -47,16 +47,17 @@
 <br>
 <strong>2-1) 거래대금별 Next Change 값 분포<br>
 
-![2-1](https://github.com/ssyy5460/stock-prediction/assets/64217874/9be8d163-c2f8-4712-8f9c-c4c0d3ecdf77)
+![2-1](https://github.com/ssyy5460/stock-prediction/assets/64217874/cdac92dd-ee07-487d-950f-559f938996a2)
+
 
 2-2) 거래대금별 라벨 분포<br>
+![2](https://github.com/ssyy5460/stock-prediction/assets/64217874/5bf4b6c2-c574-45b9-b2bf-4b55d3e34148)
 
-![image](https://github.com/ssyy5460/stock-prediction/assets/64217874/4f803ed4-3399-4cc9-859d-ba30e8736ad9)
 
 2-3) 이상치 탐색<br>
 
 2-4) 이상치 주식 종목 확인<br>
-![step 2](https://github.com/ssyy5460/stock-prediction/assets/64217874/b79f3923-f111-4b6d-80a4-27cddd44bf18)
+![step 2](https://github.com/ssyy5460/stock-prediction/assets/64217874/d28f55f4-5fce-4f33-9bcb-d9a986c877ca)
 
 
 ### STEP 3. 데이터 전처리
